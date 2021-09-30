@@ -4,9 +4,13 @@
  * @Author: Ayatulloh Ahad R
  * @Date:   2021-10-01 03:03:21
  * @Email:   ayatulloh@indiega.net
- * @Last Modified by:   vanz
- * @Last Modified time: 2021-10-01 03:34:34
+ * @Last Modified by:   ay4t
+ * @Last Modified time: 2021-10-01 04:25:18
  * @Description: 
+ * 
+ * NusaSMS PHP Library untuk Codeigniter 
+ * 
+ * Librari ini untuk integrasi dengan nusasms API yg mendukung SMS gateway dan Whatsapp Gateway
  */
 
 class IndiegaNusaSMS
