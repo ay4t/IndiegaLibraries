@@ -1,5 +1,22 @@
 <?php
-// defined('BASEPATH') OR exit('No direct script access allowed');
+
+/**
+ *
+ * @Author: Ayatulloh Ahad R
+ * @Email: ayatulloh@indiega.net
+ * @Url: https://github.com/ay4t
+ * @Date:   2021-10-05 10:28:22
+ * @Last Modified by:  Ayatulloh Ahad R - Device Name: acer
+ * @Last Modified time: 2021-10-07 14:57:23
+ * @Description:
+ *
+ * License: 
+ *
+ */
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+
 
 class IndiegaROIsystem extends CI_Model {
 
@@ -225,7 +242,7 @@ class IndiegaROIsystem extends CI_Model {
 				} else {
 
 					echo 'User reff: ' .$referral. ' tidak ada paket aktivasi';
-					
+
 				}
 
 				$ref = userdata(array('id' => $referral))->referral_id;
